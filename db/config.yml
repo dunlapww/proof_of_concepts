@@ -13,3 +13,5 @@ test: &test
   database: movies_test
 
 production:
+  <<: *default
+  database: movies_production
