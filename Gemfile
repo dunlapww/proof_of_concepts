@@ -14,3 +14,4 @@ gem 'activerecord'
 gem 'standalone_migrations'
 gem 'pg'
 gem 'pry'
+gem 'rubocop', '~> 1.22', require: false
